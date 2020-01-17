@@ -1,0 +1,38 @@
+.resume {
+    width:1000px;
+    height:60px;
+    background-color: #666666;
+    color: whitesmoke;
+    border-right: 2px solid #666666;
+}
+h1 {
+    line-height:60px;
+    margin-left:30px;
+} 
+.content2 {
+    width:1000px;
+    height:120px;
+    border-bottom: 2px solid whitesmoke;
+    border-right: 2px solid whitesmoke;
+}
+h2 {
+    width:120px;
+    height:120px;
+    margin:0 20px 0 0;
+    background-color: darkgray;
+    float:left;
+    text-align:center;
+    line-height:120px;
+    font-size:20px;
+}
+.content3 {
+    width: 800px;
+    float:left;
+    margin-top:20px;
+}
+.topic {
+    float:left;
+}
+p {
+    margin: 0;
+}
