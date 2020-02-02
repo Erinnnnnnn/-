@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            .container {
+                border: 1px solid hotpink;
+                padding-left: 200px;
+            }
+            .main {
+                width: 500px;
+                background-color: lightcoral;
+                float: left;
+            }
+            .left {
+                width: 200px;
+                background-color: lightskyblue;
+                float: left;
+                margin-left: -500px;
+                position: relative;
+                left:-200px;
+            }
+            .right {
+                background-color: lightgreen;
+                float: left;
+                width: calc(100% - 700px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">中间内容</div>
+            <div class="left">左侧内容</div>
+            <div class="right">右侧内容</div>
+        </div>
+    </body>
+</html>
