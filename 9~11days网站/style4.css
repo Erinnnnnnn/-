@@ -1,0 +1,93 @@
+.contact {
+    overflow: hidden;
+}
+.con-left {
+    float: left;
+    margin: 60px 150px 50px 250px;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.con-right {
+    float: left;
+    width: 500px;
+    padding-top: 150px;
+}
+.con-left h2 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    transform: scale(1.1,0.9);
+}
+.con-left input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    color:dimgray;
+}
+.con-left input:nth-of-type(1),
+.con-left input:nth-of-type(2) {
+    width: 350px;
+    height: 45px;
+    border: 1px solid lightgray;
+}
+.con-left input:nth-of-type(3) {
+    width: 350px;
+    padding: 10px;
+    padding-bottom: 160px;
+    border: 1px solid lightgray;
+}
+.con-left input[type="submit"] {
+    width: 350px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.con-right h1 {
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+.con-right p {
+    padding-right: 150px;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.con-rignt-wrap img {
+    float: left;
+    margin-right: 10px;
+}
+.con-rignt-wrap p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.con-rignt-wrap div {
+    margin-top: 30px;
+}
+.con-rignt-wrap {
+    margin-top: 60px;
+}
+.footer {
+    display: flex;
+    padding: 60px 150px;
+    background-color: black;
+    color: grey;
+}
+.footer div {
+    flex: 1;
+}
+.footer h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.footer p {
+    font-size: 1rem;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+.footer img {
+    margin-right: 30px;
+}
